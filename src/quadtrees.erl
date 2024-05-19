@@ -64,6 +64,7 @@ anticlockwise(Quadtree1, Quadtree2, Quadtree3, Quadtree4) ->
 %%% Exercise 2
 %%%===================================================================
 
+% TODO: implement ndiff for exercise 2
 ndiff(Quadtree) ->
     ok.
 
@@ -74,6 +75,7 @@ ndiff(Quadtree) ->
 %%% Tests
 %%%===================================================================
 
+% TODO: convert 'tester.hs' to eunit tests, as well as other tests available here: https://online.manchester.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_67608_1&content_id=_12772808_1&mode=reset 
 allWhite_test() ->
     ?_assertEqual(white, allWhite(1)),
     ?_assertEqual(white, allWhite(4)),
